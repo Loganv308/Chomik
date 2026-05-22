@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\burni\\Downloads\\chomik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|c:\\users\\burni\\downloads\\chomik\\views\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|c:\\users\\burni\\downloads\\chomik\\views\\settingsdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\settingsdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|c:\\users\\burni\\downloads\\chomik\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|c:\\users\\burni\\downloads\\chomik\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|c:\\users\\burni\\downloads\\chomik\\views\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|c:\\users\\burni\\downloads\\chomik\\views\\writedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\writedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|c:\\users\\burni\\downloads\\chomik\\views\\bubblewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\bubblewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 114,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\burni\\Downloads\\chomik\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "Services\\SettingsService.cs",
+              "ToolTip": "C:\\Users\\burni\\Downloads\\chomik\\Services\\SettingsService.cs",
+              "RelativeToolTip": "Services\\SettingsService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAD4v1UAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:32:47.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\burni\\Downloads\\chomik\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Models\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\burni\\Downloads\\chomik\\Models\\AppSettings.cs",
+              "RelativeToolTip": "Models\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:30:09.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsDialog.cs",
+              "DocumentMoniker": "C:\\Users\\burni\\Downloads\\chomik\\Views\\SettingsDialog.cs",
+              "RelativeDocumentMoniker": "Views\\SettingsDialog.cs",
+              "ToolTip": "C:\\Users\\burni\\Downloads\\chomik\\Views\\SettingsDialog.cs",
+              "RelativeToolTip": "Views\\SettingsDialog.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAD4v3kAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:28:59.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\burni\\Downloads\\chomik\\Views\\MainWindow.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\burni\\Downloads\\chomik\\Views\\MainWindow.cs",
+              "RelativeToolTip": "Views\\MainWindow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:23:11.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Messagebox.cs",
+              "DocumentMoniker": "C:\\Users\\burni\\Downloads\\chomik\\Views\\Messagebox.cs",
+              "RelativeDocumentMoniker": "Views\\Messagebox.cs",
+              "ToolTip": "C:\\Users\\burni\\Downloads\\chomik\\Views\\Messagebox.cs",
+              "RelativeToolTip": "Views\\Messagebox.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwGAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:16:42.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Writedialog.cs",
+              "DocumentMoniker": "C:\\Users\\burni\\Downloads\\chomik\\Views\\Writedialog.cs",
+              "RelativeDocumentMoniker": "Views\\Writedialog.cs",
+              "ToolTip": "C:\\Users\\burni\\Downloads\\chomik\\Views\\Writedialog.cs",
+              "RelativeToolTip": "Views\\Writedialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:16:21.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bubblewindow.cs",
+              "DocumentMoniker": "C:\\Users\\burni\\Downloads\\chomik\\Views\\Bubblewindow.cs",
+              "RelativeDocumentMoniker": "Views\\Bubblewindow.cs",
+              "ToolTip": "C:\\Users\\burni\\Downloads\\chomik\\Views\\Bubblewindow.cs",
+              "RelativeToolTip": "Views\\Bubblewindow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:15:58.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
