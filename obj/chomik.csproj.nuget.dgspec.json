@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burni\\Downloads\\chomik\\chomik.csproj": {}
+    "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\chomik.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burni\\Downloads\\chomik\\chomik.csproj": {
+    "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\chomik.csproj": {
       "version": "2.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burni\\Downloads\\chomik\\chomik.csproj",
+        "projectUniqueName": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\chomik.csproj",
         "projectName": "chomik",
-        "projectPath": "C:\\Users\\burni\\Downloads\\chomik\\chomik.csproj",
+        "projectPath": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\chomik.csproj",
         "packagesPath": "C:\\Users\\burni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burni\\Downloads\\chomik\\obj\\",
+        "outputPath": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "X:\\Software\\Visual Studio\\Shared\\NuGetPackages"
@@ -22,16 +22,16 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net9.0-windows10.0.19041.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "framework": "net9.0",
-            "targetAlias": "net9.0",
+          "net9.0-windows10.0.19041.0": {
+            "framework": "net9.0-windows10.0.19041",
+            "targetAlias": "net9.0-windows10.0.19041.0",
             "projectReferences": {}
           }
         },
@@ -48,9 +48,9 @@
         "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "framework": "net9.0",
-          "targetAlias": "net9.0",
+        "net9.0-windows10.0.19041.0": {
+          "framework": "net9.0-windows10.0.19041",
+          "targetAlias": "net9.0-windows10.0.19041.0",
           "dependencies": {
             "Avalonia": {
               "target": "Package",
@@ -96,48 +96,16 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.osx-arm64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.osx-arm64",
-              "version": "[9.0.16, 9.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.osx-x64",
               "version": "[9.0.16, 9.0.16]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
               "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
@@ -147,21 +115,15 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
-        "linux-x64": {
-          "#import": []
-        },
-        "osx-arm64": {
-          "#import": []
-        },
-        "osx-x64": {
-          "#import": []
-        },
         "win-x64": {
           "#import": []
         }

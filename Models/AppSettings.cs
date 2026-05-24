@@ -6,7 +6,7 @@ namespace Chomik.Models;
 public class AppSettings
 {
     public bool MusicListeningEnabled { get; set; } = true;
-    public bool ShredFiles { get; set; } = false;
+    public bool ShredFiles { get; set; } = true;
     public bool PermanentDelete { get; set; } = false;
     public double IdleDelaySeconds { get; set; } = 3.0;
     public int AfkTimeoutMinutes { get; set; } = 3;

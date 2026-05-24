@@ -20,20 +20,24 @@ public sealed class AnimationService
         string baseDir = GetBaseDir();
         string animsFile = FindAnimsFile(baseDir);
         string filesDir = Path.Combine(baseDir, "files");
-        if (!Directory.Exists(filesDir)) filesDir = baseDir;
+        if (!Directory.Exists(filesDir)) return;
 
         if (!File.Exists(animsFile)) return;
 
         string? currentSection = null;
         List<AnimationFrame>? currentList = null;
 
-        foreach (string rawLine in File.ReadAllLines(animsFile))
+        // Use StreamReader to handle BOM automatically
+        using var reader = new StreamReader(animsFile, detectEncodingFromByteOrderMarks: true);
+        
+        string? rawLine;
+        while ((rawLine = reader.ReadLine()) != null)
         {
             string line = rawLine.Trim();
             if (string.IsNullOrWhiteSpace(line) || line.StartsWith("//") || line.StartsWith('#'))
                 continue;
 
-            if (line.StartsWith("Anim"))
+            if (line.StartsWith("Anim", StringComparison.OrdinalIgnoreCase))
             {
                 FlushSection(currentSection, currentList);
                 currentSection = line;
@@ -43,7 +47,6 @@ public sealed class AnimationService
 
             if (currentSection is null || currentList is null) continue;
 
-            // Skip bare integers (frame-count hints in some versions of anims.txt)
             if (int.TryParse(line, out _)) continue;
 
             string[] parts = line.Split([' ', '\t'], StringSplitOptions.RemoveEmptyEntries);
@@ -54,12 +57,8 @@ public sealed class AnimationService
             string framePath = Path.Combine(filesDir, parts[0]);
             if (!File.Exists(framePath)) continue;
 
-            try
-            {
-                using var stream = new FileStream(framePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-                currentList.Add(new AnimationFrame(new Bitmap(stream), duration));
-            }
-            catch { /* skip unreadable frames */ }
+            using var stream = new FileStream(framePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+            currentList.Add(new AnimationFrame(new Bitmap(stream), duration));
         }
 
         FlushSection(currentSection, currentList);
@@ -78,26 +77,26 @@ public sealed class AnimationService
             _animations[name] = frames;
     }
 
-    private static string GetBaseDir()
-    {
-        string exeDir = Path.GetDirectoryName(
-            System.Diagnostics.Process.GetCurrentProcess().MainModule?.FileName ?? "") ?? "";
-        string appDir = AppDomain.CurrentDomain.BaseDirectory;
+    private static string GetBaseDir() => AppDomain.CurrentDomain.BaseDirectory;
+    //{
+    //    string exeDir = Path.GetDirectoryName(
+    //        System.Diagnostics.Process.GetCurrentProcess().MainModule?.FileName ?? "") ?? "";
+    //    string appDir = AppDomain.CurrentDomain.BaseDirectory;
 
-        foreach (string dir in new[] { exeDir, appDir })
-        {
-            if (!string.IsNullOrEmpty(dir) &&
-                (File.Exists(Path.Combine(dir, "files", "anims.txt")) ||
-                 File.Exists(Path.Combine(dir, "anims.txt"))))
-                return dir;
-        }
-        return appDir;
-    }
+    //    foreach (string dir in new[] { exeDir, appDir })
+    //    {
+    //        if (!string.IsNullOrEmpty(dir) &&
+    //            (File.Exists(Path.Combine(dir, "files", "anims.txt")) ||
+    //             File.Exists(Path.Combine(dir, "anims.txt"))))
+    //            return dir;
+    //    }
+    //    return appDir;
+    //}
 
-    private static string FindAnimsFile(string baseDir)
-    {
-        string candidate = Path.Combine(baseDir, "files", "anims.txt");
-        if (File.Exists(candidate)) return candidate;
-        return Path.Combine(baseDir, "anims.txt");
-    }
+    private static string FindAnimsFile(string baseDir) => Path.Combine(baseDir, "files", "anims.txt");
+    //{
+    //    string candidate = Path.Combine(baseDir, "files", "anims.txt");
+    //    if (File.Exists(candidate)) return candidate;
+    //    return Path.Combine(baseDir, "anims.txt");
+    //}
 }

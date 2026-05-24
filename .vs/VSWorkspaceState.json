@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net9.0",
+    "\\bin\\Debug\\net9.0\\win-x64",
+    "\\Helpers",
+    "\\Models",
+    "\\Services",
+    "\\Views"
   ],
+  "SelectedNode": "\\chomik.sln",
   "PreviewInSolutionExplorer": false
 }

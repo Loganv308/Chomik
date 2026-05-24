@@ -66,11 +66,13 @@ public sealed class MusicMonitorService
             if (!playing) return false;
             if (_whitelist.Count == 0) return true;
 
-            // Check if the source app is in the whitelist
+            if (_whitelist.Count == 0) return true;
+
             string appId = current.SourceAppUserModelId ?? "";
             return _whitelist.Any(w =>
                 appId.Contains(w, StringComparison.OrdinalIgnoreCase) ||
-                title.Contains(w, StringComparison.OrdinalIgnoreCase));
+                title.Contains(w, StringComparison.OrdinalIgnoreCase) ||
+                artist.Contains(w, StringComparison.OrdinalIgnoreCase));
         }
         catch { return false; }
 #else

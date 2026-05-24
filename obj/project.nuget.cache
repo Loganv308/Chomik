@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5DpT5SOPPI8=",
+  "dgSpecHash": "1Wx8qEYtxy4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\burni\\Downloads\\chomik\\chomik.csproj",
+  "projectFilePath": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\chomik.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burni\\.nuget\\packages\\avalonia\\11.2.1\\avalonia.11.2.1.nupkg.sha512",
     "C:\\Users\\burni\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",
@@ -31,18 +31,10 @@
     "C:\\Users\\burni\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.8\\skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
     "C:\\Users\\burni\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\burni\\.nuget\\packages\\tmds.dbus.protocol\\0.20.0\\tmds.dbus.protocol.0.20.0.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-arm64\\9.0.16\\microsoft.aspnetcore.app.runtime.osx-arm64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.netcore.app.host.osx-arm64\\9.0.16\\microsoft.netcore.app.host.osx-arm64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\9.0.16\\microsoft.netcore.app.runtime.linux-x64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-arm64\\9.0.16\\microsoft.netcore.app.runtime.osx-arm64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\9.0.16\\microsoft.netcore.app.host.osx-x64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\9.0.16\\microsoft.netcore.app.host.linux-x64.9.0.16.nupkg.sha512",
+    "C:\\Users\\burni\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
     "C:\\Users\\burni\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.16\\microsoft.aspnetcore.app.runtime.win-x64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-x64\\9.0.16\\microsoft.netcore.app.runtime.osx-x64.9.0.16.nupkg.sha512",
     "C:\\Users\\burni\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.16\\microsoft.netcore.app.runtime.win-x64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-x64\\9.0.16\\microsoft.aspnetcore.app.runtime.osx-x64.9.0.16.nupkg.sha512",
-    "C:\\Users\\burni\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\9.0.16\\microsoft.aspnetcore.app.runtime.linux-x64.9.0.16.nupkg.sha512"
+    "C:\\Users\\burni\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.16\\microsoft.netcore.app.runtime.win-x64.9.0.16.nupkg.sha512"
   ],
   "logs": []
 }

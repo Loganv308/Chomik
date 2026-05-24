@@ -1,12 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\burni\\Downloads\\chomik\\",
-  "Documents": [],
+  "WorkspaceRootPath": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\chomik.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:chomik.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\MainWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\MainWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\App.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\AppSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\AppSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\FileShredderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FileShredderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chomik.csproj",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\chomik.csproj",
+              "RelativeDocumentMoniker": "chomik.csproj",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\chomik.csproj",
+              "RelativeToolTip": "chomik.csproj",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-24T22:43:29.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Models\\AppSettings.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\AppSettings.cs",
+              "RelativeToolTip": "Models\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T22:31:01.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileShredderService.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\FileShredderService.cs",
+              "RelativeDocumentMoniker": "Services\\FileShredderService.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\FileShredderService.cs",
+              "RelativeToolTip": "Services\\FileShredderService.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAIwOwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T22:27:25.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\MainWindow.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\MainWindow.cs",
+              "RelativeToolTip": "Views\\MainWindow.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T22:27:22.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\App.cs",
+              "RelativeDocumentMoniker": "App.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\App.cs",
+              "RelativeToolTip": "App.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T22:27:07.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

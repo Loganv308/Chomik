@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\services\\musicmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:services\\musicmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\views\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\models\\animationframe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:models\\animationframe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\services\\animationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:services\\animationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\models\\hamsterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:models\\hamsterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\views\\settingsdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\settingsdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\views\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\views\\writedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\writedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|x:\\forge-codebase\\forge-projects\\c-sharpcodebase\\chomik\\views\\bubblewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24436531-162E-FDD5-744B-ACDE70ADCBF1}|chomik.csproj|solutionrelative:views\\bubblewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 286,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MusicMonitorService.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\MusicMonitorService.cs",
+              "RelativeDocumentMoniker": "Services\\MusicMonitorService.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\MusicMonitorService.cs",
+              "RelativeToolTip": "Services\\MusicMonitorService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T23:11:31.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-24T23:10:15.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T23:02:23.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimationService.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\AnimationService.cs",
+              "RelativeDocumentMoniker": "Services\\AnimationService.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\AnimationService.cs",
+              "RelativeToolTip": "Services\\AnimationService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T22:44:12.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnimationFrame.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\AnimationFrame.cs",
+              "RelativeDocumentMoniker": "Models\\AnimationFrame.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\AnimationFrame.cs",
+              "RelativeToolTip": "Models\\AnimationFrame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T22:44:03.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "Services\\SettingsService.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Services\\SettingsService.cs",
+              "RelativeToolTip": "Services\\SettingsService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAD4v1UAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:32:47.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\MainWindow.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\MainWindow.cs",
+              "RelativeToolTip": "Views\\MainWindow.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:23:11.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HamsterState.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\HamsterState.cs",
+              "RelativeDocumentMoniker": "Models\\HamsterState.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\HamsterState.cs",
+              "RelativeToolTip": "Models\\HamsterState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T22:44:07.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Models\\AppSettings.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Models\\AppSettings.cs",
+              "RelativeToolTip": "Models\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:30:09.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SettingsDialog.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\SettingsDialog.cs",
+              "RelativeDocumentMoniker": "Views\\SettingsDialog.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\SettingsDialog.cs",
+              "RelativeToolTip": "Views\\SettingsDialog.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAD4v3kAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:28:59.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Messagebox.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\Messagebox.cs",
+              "RelativeDocumentMoniker": "Views\\Messagebox.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\Messagebox.cs",
+              "RelativeToolTip": "Views\\Messagebox.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwGAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:16:42.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Writedialog.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\Writedialog.cs",
+              "RelativeDocumentMoniker": "Views\\Writedialog.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\Writedialog.cs",
+              "RelativeToolTip": "Views\\Writedialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:16:21.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bubblewindow.cs",
+              "DocumentMoniker": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\Bubblewindow.cs",
+              "RelativeDocumentMoniker": "Views\\Bubblewindow.cs",
+              "ToolTip": "X:\\Forge-Codebase\\Forge-projects\\C-SharpCodebase\\chomik\\Views\\Bubblewindow.cs",
+              "RelativeToolTip": "Views\\Bubblewindow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T21:15:58.769Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

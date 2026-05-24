@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chomik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0+bca8bb38be6db667f32176c148b1c388e54bea5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("chomik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chomik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]

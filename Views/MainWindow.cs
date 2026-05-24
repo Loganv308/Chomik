@@ -32,6 +32,8 @@ public class MainWindow : Window
 
     private AppSettings _settings = new();
 
+    private const int WS_EX_LAYERED = 0x00080000;
+
     // -------------------------------------------------------------------------
     // Animation state machine
     // -------------------------------------------------------------------------
@@ -125,6 +127,13 @@ public class MainWindow : Window
 
     public MainWindow()
     {
+        Background = Avalonia.Media.Brushes.Transparent;
+        TransparencyLevelHint = [WindowTransparencyLevel.Transparent];
+        SystemDecorations = SystemDecorations.None;
+        SizeToContent = SizeToContent.WidthAndHeight;
+        Topmost = true;
+        ShowInTaskbar = false;
+
         _hamsterImg = new Image
             {
             Stretch = Avalonia.Media.Stretch.None
@@ -261,6 +270,7 @@ public class MainWindow : Window
 
     protected override void OnOpened(EventArgs e)
     {
+
         base.OnOpened(e);
         if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) return;
 
@@ -269,13 +279,17 @@ public class MainWindow : Window
 
         // Remove from taskbar, keep on top
         long ex = GetWindowLongPtr(hwnd, GWL_EXSTYLE).ToInt64();
-        ex = (ex | WS_EX_TOOLWINDOW) & ~WS_EX_APPWINDOW;
+        ex = (ex | WS_EX_TOOLWINDOW | WS_EX_LAYERED) & ~WS_EX_APPWINDOW;
         SetWindowLongPtr(hwnd, GWL_EXSTYLE, new IntPtr(ex));
 
-        // Subclass to intercept WM_NCHITTEST for click-through on transparent pixels
+        // Subclass for click-through on transparent pixels
         _customWndProc = CustomWndProc;
         _oldWndProc = SetWindowLongPtr(hwnd, GWLP_WNDPROC,
             Marshal.GetFunctionPointerForDelegate(_customWndProc));
+
+        // ADD THIS: apply the region for the first frame now that the handle exists
+        if (CurrentFrame is not null)
+            UpdateWindowRegion(CurrentFrame.Image);
     }
 
     private IntPtr CustomWndProc(IntPtr hwnd, uint msg, IntPtr w, IntPtr l)
@@ -992,38 +1006,39 @@ public class MainWindow : Window
 
     private void UpdateWindowRegion(Bitmap? bitmap)
     {
-        if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) return;
-        if (bitmap is null) return;
+        return;
+        //if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) return;
+        //if (bitmap is null) return;
 
-        var hwnd = this.TryGetPlatformHandle()?.Handle ?? IntPtr.Zero;
-        if (hwnd == IntPtr.Zero) return;
+        //var hwnd = this.TryGetPlatformHandle()?.Handle ?? IntPtr.Zero;
+        //if (hwnd == IntPtr.Zero) return;
 
-        try
-        {
-            int w = bitmap.PixelSize.Width;
-            int h = bitmap.PixelSize.Height;
-            byte[] alpha = _hitTest.GetAlphaData(bitmap);
+        //try
+        //{
+        //    int w = bitmap.PixelSize.Width;
+        //    int h = bitmap.PixelSize.Height;
+        //    byte[] alpha = _hitTest.GetAlphaData(bitmap);
 
-            IntPtr region = CreateRectRgn(0, 0, 0, 0);
-            for (int y = 0; y < h; y++)
-            {
-                int? start = null;
-                for (int x = 0; x <= w; x++)
-                {
-                    bool opaque = x < w && alpha[y * w + x] > 10;
-                    if (opaque && start is null) start = x;
-                    else if (!opaque && start.HasValue)
-                    {
-                        var row = CreateRectRgn(start.Value, y, x, y + 1);
-                        CombineRgn(region, region, row, 2 /* RGN_OR */);
-                        DeleteObject(row);
-                        start = null;
-                    }
-                }
-            }
-            SetWindowRgn(hwnd, region, false);
-        }
-        catch { }
+        //    IntPtr region = CreateRectRgn(0, 0, 0, 0);
+        //    for (int y = 0; y < h; y++)
+        //    {
+        //        int? start = null;
+        //        for (int x = 0; x <= w; x++)
+        //        {
+        //            bool opaque = x < w && alpha[y * w + x] > 10;
+        //            if (opaque && start is null) start = x;
+        //            else if (!opaque && start.HasValue)
+        //            {
+        //                var row = CreateRectRgn(start.Value, y, x, y + 1);
+        //                CombineRgn(region, region, row, 2 /* RGN_OR */);
+        //                DeleteObject(row);
+        //                start = null;
+        //            }
+        //        }
+        //    }
+        //    SetWindowRgn(hwnd, region, false);
+        //}
+        //catch { }
     }
 
     // =========================================================================
